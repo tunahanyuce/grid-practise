@@ -7,12 +7,12 @@
     justify-content:center;
     align-items: stretch;
     gap: 10px;
-    background-color: rgb(207, 205, 205);
+    background-color: rgb(255, 255, 255,0.5);
     background: repeating-linear-gradient(
         to right,
         rgba(0, 0, 0, 0.1) 0px,
-        rgba(0, 0, 0, 0.1) 2px,
-        transparent 2px,
+        rgb(236, 236, 236) 2px,
+        transparent 1px,
         transparent 80px
       );  
     grid-template-areas: 
@@ -23,54 +23,55 @@
 
 .item-a {
   grid-area: header;
-  background-color: #d4a373;
+  background-color: rgba(203, 138, 17, 0.5);
   text-align: center;
   font-size: 40px;
   display: flex;
   align-items:center;
   justify-content: center;
-  border: 2px solid black;
+  border: 3px solid black;
   padding: 15px;
   
 }
 
 .item-b {
   grid-area: menu;
-  background-color: #4caf50;
+  background-color: rgba(9, 177, 51, 0.674);
   text-align: center;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid black;
+  border: 3px solid black;
   padding: 20px;
-  margin-right: -20px;
+  margin-right: -10px;
 }
 
 .item-c {
   grid-area: main;
-  background-color: #673ab7;
+  background-color: rgba(111, 74, 216, 0.89);
+  
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  border: 2px solid black;
+  border: 3px solid black;
   padding: 20px;
-  margin-left: -20px;
+  /* margin-left: -20px; */
 
 
 }
 
 .item-d {
   grid-area: footer;
-  background-color: #e57373;
+  background-color: rgba(236, 108, 108, 0.827);
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  border: 2px solid black;
+  border: 3px solid black;
   padding: 15px;
 
 }
